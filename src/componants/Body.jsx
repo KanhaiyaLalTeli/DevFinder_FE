@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from 'react-router-dom';
 import Navbar from './Navbar'
 import Footer from './Footer';
 import axios from 'axios';
-import { BASE_URL } from '../utils/Constant';
+import { BASE_URL } from '../utils/constant';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addUser } from '../utils/userSlice';
