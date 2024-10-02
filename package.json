@@ -40,5 +40,5 @@
   "main": "eslint.config.js",
   "author": "",
   "license": "ISC",
-  "proxy": "http://localhost:3000"
+  "proxy": "https://devfinder-fe.onrender.com"
 }
