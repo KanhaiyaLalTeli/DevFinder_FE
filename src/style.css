@@ -1,0 +1,25 @@
+.connection-container{
+    width:40%;
+}
+
+
+@media screen and (max-width:728px) {
+    .connection-container{
+        width:75%;
+    }
+    .profile-container{
+        flex-direction: column;
+        column-gap: 2rem;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .connection-container{
+        width:90%;
+        margin: auto;
+    }
+    .profile-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
